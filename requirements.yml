@@ -1,0 +1,8 @@
+- src: https://github.com/samos123/ansible-tuna
+- src: https://github.com/samos123/ansible-http-proxy
+- src: https://github.com/samos123/ansible-mesos
+- src: https://github.com/samos123/ansible-java8
+- src: https://github.com/samos123/ansible-zookeeper
+- src: https://github.com/samos123/ansible-docker
+- src: https://github.com/samos123/ansible-marathon
+- src: https://github.com/samos123/ansible-consul
