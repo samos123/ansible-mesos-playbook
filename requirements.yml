@@ -6,3 +6,4 @@
 - src: https://github.com/samos123/ansible-docker
 - src: https://github.com/samos123/ansible-marathon
 - src: https://github.com/samos123/ansible-consul
+- src: https://github.com/samos123/ansible-mesos-spark
