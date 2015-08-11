@@ -9,6 +9,7 @@
   roles:
     - { role: ansible-http-proxy, proxy_server: 'http://192.168.112.14:3128', tags: ['http-proxy'] }
     - { role: ansible-tuna, tags: ['tuna'] }
+    - { role: ansible-opencv, tags: ['opencv'] }
 
 - hosts: [mesos_masters]
   sudo: True
