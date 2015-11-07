@@ -1,7 +1,7 @@
 ---
 - hosts: all
   tasks:
-    - name: Build hosts file (backups will be made)
+    - name: Build hosts file (backups will be made
       lineinfile: dest=/etc/hosts regexp='{{ hostvars[item].ansible_hostname }}$' line='{{ hostvars[item].ansible_default_ipv4.address }} {{ item }} {{ hostvars[item].ansible_hostname }}' state=present backup=yes
       when: hostvars[item].ansible_default_ipv4.address is defined
       with_items: groups['all']
@@ -30,7 +30,7 @@
         tags: ['mesos-tools'] }
     - { role: 'ansible-consul', 
         consul_client_address: "0.0.0.0",  consul_version: "0.4.1", 
-        consul_datacenter: "sea", consul_is_server: true, consul_servers: "{{ groups.mesos_masters  }}", 
+        consul_datacenter: "sea", consul_is_server: true, consul_servers: "{{ groups.mesos_masters }}", 
         consul_is_ui: true, consul_join_at_start: true }
     - { role: 'ansible-mesos-spark', tags: ['spark'], mesos_master: "{{ groups.mesos_masters|first }}" }
 

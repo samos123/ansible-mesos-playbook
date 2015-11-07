@@ -1,13 +1,7 @@
 [mesos_masters]
-mesos-master ansible_ssh_host=192.168.111.54
-mesos-master-0c115687-210a-4ea3-bfa8-1cc7d8d66315 ansible_ssh_host=192.168.111.55
-mesos-master-7e03a4d1-2b98-47bf-8d57-d6ef5d7fda3e ansible_ssh_host=192.168.111.56
+mesos-master-1 ansible_ssh_host=192.168.111.54
+mesos-master-2 ansible_ssh_host=192.168.111.55
+mesos-master-3 ansible_ssh_host=192.168.111.56
 
 [mesos_slaves]
-mesos-slave-2f5fbfa2-8a7b-4993-8550-9036c6cf6254 ansible_ssh_host=192.168.111.57
-mesos-slave-27478ac5-4072-4a90-8a1c-810c3745d6f8 ansible_ssh_host=192.168.111.58
-mesos-slave-1c3e129f-e914-455f-a72a-737f8f6c9be3 ansible_ssh_host=192.168.111.59
-mesos-slave-3a6cf146-33e4-4a75-9a92-7720eddda0de ansible_ssh_host=192.168.111.60
-mesos-slave-445de1bd-78b3-4ac0-8179-711a1d0e828f ansible_ssh_host=192.168.111.61
-mesos-slave-0a19fb2e-6a9d-45d2-bc12-5901f84354dd ansible_ssh_host=192.168.111.62
-
+mesos-slave-1 ansible_ssh_host=192.168.111.57
