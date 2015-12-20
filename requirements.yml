@@ -2,10 +2,7 @@
 - src: https://github.com/samos123/ansible-http-proxy
 - src: https://github.com/AnsibleShipyard/ansible-mesos
 - src: https://github.com/samos123/ansible-java8
-- src: https://github.com/samos123/ansible-mesos-spark
-- src: https://github.com/samos123/ansible-zookeeper
-- src: https://github.com/AnsibleShipyard/ansible-docker
-- src: https://github.com/AnsibleShipyard/ansible-marathon
-- src: https://github.com/samos123/ansible-consul
-- src: https://github.com/samos123/ansible-mesos-spark
 - src: https://github.com/samos123/ansible-opencv
+- src: https://github.com/samos123/ansible-zookeeper
+- src: https://github.com/samos123/ansible-mesos-spark
+- src: https://github.com/samos123/ansible-mesos-tachyon
