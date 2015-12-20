@@ -7,12 +7,12 @@ flavor=m1.medium
 
 if [[ $name == *"slave"* ]]
 then
-    flavor=m1.large
+    flavor=m1.xlarge
 fi
 
 if [[ $name == *"master"* ]]
 then
-    flavor=m1.medium
+    flavor=m1.large
 fi
 
 nova boot --image ubuntu_1404 --flavor $flavor --nic net-id=$netid,v4-fixed-ip=$ip --key-name osxueyuan $name
